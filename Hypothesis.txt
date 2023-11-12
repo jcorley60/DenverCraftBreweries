@@ -1,0 +1,7 @@
+################
+## Hypothesis ##
+################
+
+$H_1$: The consumption of craft beer in the approximate Denver-Lakewood-Aurora Metropolitan Statistical Area area is influenced by a combination of demographic factors, including the number of existing breweries, education level, household income, age distribution, gender composition, ethnic diversity, and specific occupational profiles. We anticipate that areas with a higher concentration of breweries, a well-educated population, higher household incomes, a diverse age range, a balanced gender distribution, and specific occupational profiles, such as construction, will exhibit a higher propensity for craft beer consumption.
+
+Please see "DenverCraftBreweries_START_HERE.ipynb" for a project overview.

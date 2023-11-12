@@ -1,0 +1,63 @@
+###################
+## VARIABLE SETS ##  --> SEE /DenverCraftBreweries/models/pca
+###################
+
+# places - Derived from exclusively examining PC1 vs PC2 plots for max PC1
+sel_pca_places = [
+    'NAMELSAD',
+    'num_breweries',
+    'pop_in_hh',
+    'edu_>=_hs',
+    'commute_mean_mins',
+    'hhinc_median',
+    'hhinc_mean',
+    'faminc_median',
+    'faminc_mean',
+    'hhinc_nonfam_median',
+    'hhinc_nonfam_mean',
+    'tot_pop_>=21',
+    'target_occs',
+    'target_age',
+    'target_hhinc',
+]
+
+# variables -- ORIGINAL more emphasis on trade publication variables, less on PCA
+sel_pca_vars = [
+    'NAMELSAD',
+#     'num_major_roads',
+    'num_medical_facilities',
+    'num_breweries',
+    'edu_in_college',
+    'edu_>=_hs',
+    'commute_wfh',
+#     'hhinc_median',
+    'tot_pop_white',
+    'target_occs',
+    'target_age',
+#     'target_hhinc',
+]
+
+# variables -- PC1 Loadings Derived
+sel_pca_variables = [
+'NAMELSAD',
+'num_breweries',
+'mar_child',
+'hh_female',
+'edu_>=_hs',
+'diff_res_1yr',
+'commute_wfh',
+'private_wage_salary_worker',
+'hhinc_50k-74.999k',
+'hhinc_75k-99.999k',
+'hhinc_100k-149.999k',
+'hhinc_150k-199.999k',
+'hhinc_>=200k',
+'owner_occupied_mortgage',
+'tot_pop_25-34',
+'tot_pop_35-44',
+'tot_pop_45-54',
+'tot_pop_>=18_male',
+'tot_pop_white',
+'tot_pop_hisp',
+'target_occs',
+]
