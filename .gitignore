@@ -1,2 +1,7 @@
+# Config files
 config.yaml
+*.yaml
+*.yml
+
+# Project Planning/Direction Files (non-public)
 Project Planning - NOT TO BE POSTED ON GITHUB.txt
